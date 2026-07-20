@@ -1,0 +1,12 @@
+diff --git a/src/adapters/fontconfig/fontconfigresolver.cpp b/src/adapters/fontconfig/fontconfigresolver.cpp
+index 785c331..c98c910 100644
+--- a/src/adapters/fontconfig/fontconfigresolver.cpp
++++ b/src/adapters/fontconfig/fontconfigresolver.cpp
+@@ -3,6 +3,7 @@
+ #include "spdlog/spdlog.h"
+ #include "fontconfigresolver.hpp"
+ #include <fontconfig/fontconfig.h>
++#include <fontconfig/fcfreetype.h>
+ #include <optional>
+ #include <string>
+
